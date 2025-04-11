@@ -1,6 +1,8 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
+import CustomCursor from "@/ui/cursor/custom-cursor";
+
 const geistSans = Poppins({
     variable: "--font-geist-sans",
     subsets: ["latin"],
@@ -15,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={geistSans.variable}>{children}</body>
+            <body className={geistSans.variable}>
+                <CustomCursor />
+                {children}
+            </body>
         </html>
     );
 }
