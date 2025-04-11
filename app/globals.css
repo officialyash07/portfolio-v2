@@ -1,42 +1,69 @@
-:root {
-    --background: #ffffff;
-    --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
-}
-
-html,
-body {
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
-body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: Arial, Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
-    padding: 0;
+}
+
+*,
+html {
     margin: 0;
+    padding: 0;
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
+body {
+    line-height: 1.5;
+    background-size: cover;
+    background-position: bottom;
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-shadow: 1px 16px 14px -4px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 1px 16px 14px -4px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 1px 16px 14px -4px rgba(0, 0, 0, 0.75) inset;
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+label,
+button,
+select,
+summary,
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
+    cursor: pointer;
 }
