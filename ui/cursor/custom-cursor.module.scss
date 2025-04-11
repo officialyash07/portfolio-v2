@@ -1,9 +1,9 @@
-@import "../../styles/variables";
+@use "../../styles/variables" as variables;
 
 .background {
     position: fixed;
     inset: 0;
-    background-color: $bg-dark;
+    background-color: variables.$bg-dark;
     z-index: -1;
 
     .circle {
@@ -16,7 +16,7 @@
         pointer-events: none;
         background: radial-gradient(
             100% 80% at center,
-            $primary 5%,
+            variables.$primary 5%,
             transparent 90%
         );
         filter: blur(120px);

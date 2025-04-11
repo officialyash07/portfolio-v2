@@ -1,7 +1,9 @@
 import classes from "./header.module.scss";
 
 import Link from "next/link";
-import ApigatewayIcon from "@/public/icons/ApigatewayIcon";
+import AboutIcon from "@/public/icons/about-icon";
+import ApigatewayIcon from "@/public/icons/apigateway-icon";
+import ApiIcon from "@/public/icons/api-icon";
 
 const Header = () => {
     return (
@@ -10,17 +12,29 @@ const Header = () => {
                 <ul>
                     <li>
                         <Link href="">
-                            <ApigatewayIcon />
+                            <span>
+                                <AboutIcon />
+                            </span>
                         </Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">
+                            <span>
+                                <ApigatewayIcon />
+                            </span>
+                        </Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">
+                            <span>
+                                <ApiIcon />
+                            </span>
+                        </Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">
+                            <span></span>
+                        </Link>
                     </li>
                 </ul>
             </nav>
