@@ -4,7 +4,6 @@ const NodejsIcon = () => {
             width="800px"
             height="800px"
             viewBox="0 -183.5 512 512"
-            xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="xMinYMin meet"
         >
             <g fill="#83CD29">

@@ -1,19 +1,12 @@
 const SchoolIcon = () => {
     return (
-        <svg
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 512 512"
-            xml:space="preserve"
-        >
+        <svg version="1.1" id="Layer_1" viewBox="0 0 512 512">
             <circle style="fill:#45B39C;" cx="256" cy="256" r="256" />
             <path
                 style="opacity:0.1;enable-background:new    ;"
                 d="M501.531,328.459L354.955,181.883L256,109.333l-98.955,72.549
-       l23.557,23.557v33.104h-10.667h-60.603v164.123l106.101,106.101C228.651,510.875,242.192,512,256,512
-       C372.208,512,470.272,434.544,501.531,328.459z"
+   l23.557,23.557v33.104h-10.667h-60.603v164.123l106.101,106.101C228.651,510.875,242.192,512,256,512
+   C372.208,512,470.272,434.544,501.531,328.459z"
             />
             <polygon
                 style="fill:#E56353;"

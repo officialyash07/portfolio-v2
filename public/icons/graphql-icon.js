@@ -5,8 +5,6 @@ const GraphqlIcon = () => {
             height="800px"
             viewBox="-16 0 288 288"
             version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
         >
             <g fill-rule="evenodd">

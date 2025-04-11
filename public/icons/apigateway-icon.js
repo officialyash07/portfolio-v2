@@ -5,8 +5,6 @@ const ApigatewayIcon = () => {
             height="800px"
             viewBox="-27 0 310 310"
             version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
             preserveAspectRatio="xMidYMid"
         >
             <g>

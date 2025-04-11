@@ -1,12 +1,6 @@
 const OpenmailIcon = () => {
     return (
-        <svg
-            width="800px"
-            height="800px"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
+        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none">
             <path
                 d="M4 9.00005L10.2 13.65C11.2667 14.45 12.7333 14.45 13.8 13.65L20 9"
                 stroke="#000000"
