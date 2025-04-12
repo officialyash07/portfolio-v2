@@ -1,0 +1,44 @@
+@use "../../styles/variables" as variable;
+@use "../../styles//mixins" as *;
+
+.header {
+    max-width: variable.$width-xxl;
+    margin-block-end: 4rem;
+    margin-inline: auto;
+    padding: 1rem 0;
+}
+
+.navbar {
+    border: 1px solid variable.$border;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 480px;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 14px;
+    background-color: #00000028;
+    backdrop-filter: blur(10px);
+    -webkit-box-shadow: 0px 10px 19px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 19px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 19px -8px rgba(0, 0, 0, 0.75);
+    z-index: 99;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon svg {
+        width: variable.$fs-md;
+        height: fit-content;
+    }
+
+    @include respond(sm) {
+        width: 200px;
+
+        .link {
+            display: none;
+        }
+    }
+}

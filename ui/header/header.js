@@ -1,40 +1,45 @@
 import classes from "./header.module.scss";
 
-import Link from "next/link";
-import AboutIcon from "@/public/icons/about-icon";
-import ApigatewayIcon from "@/public/icons/apigateway-icon";
-import ApiIcon from "@/public/icons/api-icon";
+import NavLink from "./nav-link";
+
+import { HomeIcon, AboutIcon, ProjectIcon, ContactIcon } from "@/public/icons";
 
 const Header = () => {
     return (
-        <header>
-            <nav>
+        <header className={classes.header}>
+            <nav className={classes.navbar}>
                 <ul>
                     <li>
-                        <Link href="">
-                            <span>
+                        <NavLink href="/">
+                            <span className={classes.icon}>
+                                <HomeIcon />
+                            </span>
+                            <span className={classes.link}>home</span>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink href="/about">
+                            <span className={classes.icon}>
                                 <AboutIcon />
                             </span>
-                        </Link>
+                            <span className={classes.link}>about</span>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link href="">
-                            <span>
-                                <ApigatewayIcon />
+                        <NavLink href="/projects">
+                            <span className={classes.icon}>
+                                <ProjectIcon />
                             </span>
-                        </Link>
+                            <span className={classes.link}>projects</span>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link href="">
-                            <span>
-                                <ApiIcon />
+                        <NavLink href="/contact">
+                            <span className={classes.icon}>
+                                <ContactIcon />
                             </span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="">
-                            <span></span>
-                        </Link>
+                            <span className={classes.link}>contact</span>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>

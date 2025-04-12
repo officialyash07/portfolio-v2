@@ -1,0 +1,39 @@
+@use "../styles/variables" as variable;
+
+.main {
+    text-align: center;
+
+    .heroTxt {
+        font-size: variable.$fs-fluid-1;
+    }
+
+    .greet {
+        margin-block-start: 2rem;
+    }
+
+    .name {
+        margin-block-end: 1rem;
+        font-weight: 600;
+    }
+
+    .tagLine {
+        color: variable.$text-grey;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: variable.$fs-fluid-2;
+    }
+
+    .morphTxt {
+        margin-block-start: 2rem;
+        display: inline-flex;
+        font-size: variable.$fs-fluid-1;
+        color: #86ecd6;
+    }
+
+    .globe {
+        max-width: 400px;
+        margin-block-start: 6rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,6 +1,6 @@
 const AboutIcon = () => {
     return (
-        <svg fill="#000000" width="800px" height="800px" viewBox="0 0 96 96">
+        <svg fill="#f0f0f0" width="800px" height="800px" viewBox="0 0 96 96">
             <title />
 
             <g>

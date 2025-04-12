@@ -1,0 +1,35 @@
+@use "../../styles/variables" as variable;
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: variable.$fs-xs;
+    text-transform: capitalize;
+    padding: 4px 10px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+    position: relative;
+
+    &:hover {
+        border: 1px solid variable.$border;
+        border-radius: 12px;
+        background-color: #95959518;
+        backdrop-filter: blur(10px);
+    }
+
+    .activeIndicator {
+        position: absolute;
+        height: 34px;
+        width: 100%;
+        border: 1px solid variable.$border;
+        border-radius: 9px;
+        background-color: #9595954d;
+        backdrop-filter: blur(4px);
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
