@@ -3,7 +3,7 @@ import "./globals.scss";
 
 import CustomCursor from "@/ui/cursor/custom-cursor";
 import Header from "@/ui/header/header";
-// import Footer from "@/ui/footer/footer";
+import Footer from "@/ui/footer/footer";
 
 const geistSans = Poppins({
     variable: "--font-geist-sans",
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
                 <CustomCursor />
                 <Header />
                 {children}
-                {/* <Footer /> */}
+                <Footer />
             </body>
         </html>
     );

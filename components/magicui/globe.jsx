@@ -18,10 +18,10 @@ const GLOBE_CONFIG = {
     dark: 0,
     diffuse: 0.4,
     mapSamples: 16000,
-    mapBrightness: 1.2,
+    mapBrightness: 2,
     baseColor: [1, 1, 1],
-    markerColor: [251 / 255, 100 / 255, 21 / 255],
-    glowColor: [1, 1, 1],
+    markerColor: [0.031, 0.663, 0.486],
+    glowColor: [0.1, 0.3, 0.2],
     markers: [
         { location: [14.5995, 120.9842], size: 0.03 },
         { location: [19.076, 72.8777], size: 0.1 },
@@ -33,6 +33,7 @@ const GLOBE_CONFIG = {
         { location: [40.7128, -74.006], size: 0.1 },
         { location: [34.6937, 135.5022], size: 0.05 },
         { location: [41.0082, 28.9784], size: 0.06 },
+        { location: [28.7041, 77.1025], size: 0.3 },
     ],
 };
 
