@@ -1,0 +1,16 @@
+@use "../../styles/variables" as variable;
+
+.socialLinks {
+    display: flex;
+    gap: 1rem;
+
+    svg {
+        width: variable.$fs-lg;
+        height: fit-content;
+        transition: 0.2s ease;
+
+        &:hover {
+            fill: variable.$secondary;
+        }
+    }
+}

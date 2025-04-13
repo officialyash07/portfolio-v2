@@ -13,28 +13,10 @@ html {
     margin: 0;
     padding: 0;
 }
+
 * {
     scrollbar-width: thin;
-    scrollbar-color: #0d483ca9 #c7c7c7;
-}
-
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #f0f0f0;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 10px;
-    border: 2px solid #f0f0f0;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    scrollbar-color: #0dc09ca9 #000000;
 }
 
 body {
@@ -99,5 +81,4 @@ main {
     max-width: 1440px;
     margin-inline: auto;
     padding: 1rem 0.5rem;
-    min-height: calc(100vh - 60px);
 }
