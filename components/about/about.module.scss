@@ -1,0 +1,75 @@
+@use "../../styles/variables" as variable;
+@use "../../styles/mixins" as *;
+
+.intro {
+    // border: 1px solid white;
+
+    .name {
+        font-size: variable.$fs-fluid-3;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+
+    .profession {
+        font-size: variable.$fs-fluid-4;
+        text-transform: capitalize;
+        font-weight: normal;
+        color: variable.$text-grey;
+        margin-block-end: 1rem;
+    }
+
+    .summary {
+        letter-spacing: 1px;
+        margin-block-end: 2rem;
+    }
+
+    .cta {
+        display: flex;
+        gap: 2rem;
+
+        p a {
+            display: flex;
+            gap: 0.5rem;
+            align-items: flex-start;
+            text-decoration: none;
+            color: variable.$text-light;
+            border: 1px solid variable.$secondary;
+            border-radius: 12px;
+            padding: 0.3rem 1rem;
+            background-color: #08a97b25;
+            backdrop-filter: blur(10px);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: all 0.3s ease;
+
+            span {
+                padding-block-start: 3px;
+            }
+
+            &:hover {
+                background-color: #08a97b65;
+            }
+
+            &:hover svg path {
+                stroke: aliceblue;
+            }
+        }
+    }
+
+    @include respond(md) {
+        text-align: center;
+
+        .cta {
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .summary {
+            font-size: variable.$fs-xs;
+        }
+    }
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+}

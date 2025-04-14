@@ -1,0 +1,49 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as variable;
+
+.educationItem {
+    margin-block-start: 2rem;
+    letter-spacing: 1px;
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-block-end: 1rem;
+        font-size: variable.$fs-fluid-2;
+    }
+
+    .university {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-block-end: 2rem;
+        color: variable.$text-grey;
+    }
+
+    .description {
+        border-left: 2px solid variable.$secondary;
+        padding-inline-start: 0.5rem;
+        font-style: italic;
+        font-size: variable.$fs-xs;
+        margin-block-end: 2rem;
+        color: variable.$text-grey;
+    }
+
+    .details {
+        display: flex;
+        gap: 1rem;
+
+        .achievement {
+            display: flex;
+            gap: 0.5rem;
+            color: variable.$secondary;
+            font-size: variable.$fs-xxs;
+            border: 1px solid variable.$secondary;
+            border-radius: 20px;
+            padding: 4px 8px;
+            background-color: #6bffd521;
+            backdrop-filter: blur(20px);
+        }
+    }
+}

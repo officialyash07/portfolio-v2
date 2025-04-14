@@ -2,6 +2,8 @@ import classes from "./page.module.scss";
 
 import ProfileImg from "@/components/about/profile";
 import Links from "@/components/about/social-links";
+import About from "@/components/about/about";
+import Education from "@/components/about/education";
 
 const AboutPage = () => {
     return (
@@ -11,7 +13,10 @@ const AboutPage = () => {
                 <Links />
             </div>
             <div className={classes.content}>
-                <h1>Content</h1>
+                <About />
+                <p className={classes.title}>Qualifications</p>
+                <Education />
+                <p className={classes.title}>Tech Stack</p>
             </div>
         </main>
     );

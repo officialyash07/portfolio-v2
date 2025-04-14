@@ -1,8 +1,9 @@
 @use "../../styles/mixins" as *;
+@use "../../styles/variables" as variable;
 
 .main {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 
     .imgContainer {
         display: flex;
@@ -11,6 +12,7 @@
         flex: 1 10 1px;
         position: sticky;
         top: 6rem;
+        min-width: 180px;
         height: 60vh;
         transform: translateX(20%);
 
@@ -21,6 +23,25 @@
     }
 
     .content {
-        flex: 1 0 auto;
+        flex: 1 1 auto;
+        max-width: 780px;
+
+        .title {
+            margin-block-start: 4rem;
+            font-size: variable.$fs-fluid-4;
+            text-transform: capitalize;
+            font-weight: 500;
+            color: variable.$text-light;
+            letter-spacing: 1px;
+        }
+    }
+
+    @include respond(md) {
+        flex-direction: column;
+
+        .imgContainer {
+            position: relative;
+            top: 0;
+        }
     }
 }
