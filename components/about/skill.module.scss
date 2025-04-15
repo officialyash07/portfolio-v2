@@ -1,0 +1,15 @@
+@use "../../styles/variables" as variable;
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    width: fit-content;
+    border: 1px solid variable.$secondary;
+    border-radius: 18px;
+    padding: 2px 8px;
+    font-size: variable.$fs-xxs;
+    color: variable.$secondary;
+    background-color: #08a97b2c;
+    backdrop-filter: blur(10px);
+}

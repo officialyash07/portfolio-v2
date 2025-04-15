@@ -1,0 +1,28 @@
+@use "../../styles/variables" as variable;
+@use "../../styles/mixins" as *;
+
+.skillSet {
+    border: 1px solid #08a97b67;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-block: 1rem;
+    max-width: 350px;
+    width: 100%;
+    background-color: #08a97b23;
+    backdrop-filter: blur(20px);
+
+    .heading {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: variable.$fs-fluid-2;
+        margin-block-end: 2rem;
+        color: variable.$text-grey;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}

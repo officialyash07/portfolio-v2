@@ -1,8 +1,7 @@
 @use "../../styles/variables" as variable;
 
 .profile {
-    max-width: 12rem;
-    width: 100%;
+    width: 12rem;
     height: 12rem;
     border: 1px solid variable.$border;
     border-radius: 50%;

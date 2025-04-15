@@ -25,6 +25,8 @@
     .content {
         flex: 1 1 auto;
         max-width: 780px;
+        width: 100%;
+        overflow-x: hidden;
 
         .title {
             margin-block-start: 4rem;
@@ -33,6 +35,16 @@
             font-weight: 500;
             color: variable.$text-light;
             letter-spacing: 1px;
+        }
+
+        .skillsetWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+
+            @include respond(md) {
+                justify-content: center;
+            }
         }
     }
 
