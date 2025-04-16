@@ -1,0 +1,69 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as variable;
+
+.project {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    margin-block-end: 4rem;
+
+    .images {
+        flex: 1;
+    }
+
+    .details {
+        flex: 0.7;
+        max-width: 800px;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color: #1718187a;
+        backdrop-filter: blur(10px);
+        padding: 2rem;
+        position: relative;
+
+        .projectTitle {
+            font-size: variable.$fs-fluid-4;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin-block-end: 1rem;
+        }
+
+        .description {
+            font-size: variable.$fs-xs;
+            font-style: italic;
+            letter-spacing: 1px;
+            margin-block-end: 2rem;
+            color: variable.$text-grey;
+        }
+
+        .cta {
+            display: flex;
+            gap: 2rem;
+
+            a {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+                text-decoration: none;
+                color: variable.$secondary;
+            }
+
+            @include respond(sm) {
+                justify-content: center;
+            }
+        }
+
+        @include respond(md) {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 1rem;
+        }
+
+        @include respond(sm) {
+            padding: 1rem;
+        }
+    }
+
+    @include respond(md) {
+        flex-direction: column;
+    }
+}
