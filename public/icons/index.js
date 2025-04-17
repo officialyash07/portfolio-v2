@@ -7,15 +7,21 @@ import LinkedinIcon from "./linkedin-icon";
 import OpenmailIcon from "./openmail-icon";
 import ProjectIcon from "./project-icon";
 import TwitterIcon from "./twitter-icon";
+import GithubIcon from "./github-icon";
+import PhoneIcon from "./phone-icon";
+import LocationIcon from "./location-icon";
 
 export {
     AboutIcon,
     ContactIcon,
     DownloadIcon,
     FacebookIcon,
+    GithubIcon,
     HomeIcon,
     LinkedinIcon,
     OpenmailIcon,
     ProjectIcon,
     TwitterIcon,
+    PhoneIcon,
+    LocationIcon,
 };

@@ -37,3 +37,33 @@
         transform: translateX(-50%);
     }
 }
+
+.notfoundWrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    .title {
+        font-size: variable.$fs-fluid-3;
+        margin-block-end: 1rem;
+    }
+
+    .tagLine {
+        font-size: variable.$fs-fluid-2;
+        margin-block-end: 2rem;
+        color: variable.$text-grey;
+    }
+
+    img {
+        border-radius: 12px;
+        object-fit: contain;
+        max-width: 600px;
+        width: 100%;
+        height: fit-content;
+        border: 1px solid white;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,62 @@
+@use "../../styles/variables" as variable;
+
+.inputWrapper {
+    margin-block-end: 2rem;
+
+    .label {
+        letter-spacing: 1px;
+    }
+
+    input {
+        margin-block-start: 0.5rem;
+        width: 100%;
+        padding: 4px 8px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #08a97b6e;
+        background-color: #08a97b1a;
+        color: inherit;
+    }
+
+    textarea {
+        margin-block-start: 0.5rem;
+        width: 100%;
+        height: 80px;
+        padding: 4px 8px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #08a97b6e;
+        background-color: #08a97b1a;
+        color: inherit;
+    }
+
+    .error {
+        color: variable.$error;
+        padding-block-start: 5px;
+        font-size: variable.$fs-xs;
+    }
+
+    .mandatory {
+        color: variable.$error;
+    }
+}
+
+.submitBtn {
+    width: 100%;
+    border: 1px solid #08a97b23;
+    border-radius: 5px;
+    outline: none;
+    padding-block: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    color: variable.$secondary;
+    background-color: #08a97b59;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: #f0f0f0;
+        color: variable.$primary;
+    }
+}

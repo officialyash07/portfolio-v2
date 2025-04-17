@@ -96,6 +96,7 @@ const ProjectsPage = () => {
                     title="Certificado Registro"
                     description="A web application using AWS that allows users to securely store and manage their certificate details. The application uses AWS Cognito for user authentication and AWS DynamoDB for storing certificate information, ensuring scalability and reliability. It provides a simple and user-friendly interface for adding, viewing, and managing certificates online."
                     codeLink="https://github.com/officialyash07/certificate-registration"
+                    liveLink="https://certificate-registration.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -104,6 +105,7 @@ const ProjectsPage = () => {
                     title="Space Tourism Website"
                     description="Explore the Cosmos with Us! Embark on the ultimate adventure with our space tourism experiences."
                     codeLink="https://github.com/officialyash07/space-tourism"
+                    liveLink="https://space-tourism-pi-seven.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -112,6 +114,7 @@ const ProjectsPage = () => {
                     title="Calculator"
                     description="A versatile calculator with three customizable themes! Perform quick and accurate calculations while switching between light, dark, and colorful modes to match your style."
                     codeLink="https://github.com/officialyash07/themed-calculator"
+                    liveLink="https://themed-calculator-gilt.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -120,6 +123,7 @@ const ProjectsPage = () => {
                     title="Facebook Validation Form"
                     description="A Facebook clone of login and sign up form with validation."
                     codeLink="https://github.com/officialyash07/facebook-login-signup-validation"
+                    liveLink="https://facebook-login-signup-validation.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -128,6 +132,7 @@ const ProjectsPage = () => {
                     title="WacthVista Website"
                     description="Your ultimate destination for premium watches. Explore a curated collection of luxury, classic, and modern timepieces designed for every style and occasion."
                     codeLink="https://github.com/officialyash07/watchvista-e-commerce-website"
+                    liveLink="/projects/maintenance"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -136,6 +141,7 @@ const ProjectsPage = () => {
                     title="E-Commerce Website"
                     description="Discover premium ceramic products at Ceramic Shop! From elegant tableware to stylish home decor."
                     codeLink="https://github.com/officialyash07/ceramic-shop-full-e-commerce-website"
+                    liveLink="/projects/maintenance"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -144,6 +150,7 @@ const ProjectsPage = () => {
                     title="Country Info Web App"
                     description="Get detailed insights on any country with our Country Info web app! Explore population, geography, economy, culture, and more—all in one place. Fast, reliable, and easy to use!"
                     codeLink="https://github.com/officialyash07/countries-rest-api-website"
+                    liveLink="https://countries-rest-api-website.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -152,6 +159,7 @@ const ProjectsPage = () => {
                     title="IP Address Tracker"
                     description="Track and locate IP addresses with real-time geolocation data. Get insights on location, ISP, and more with our fast and reliable IP address tracker."
                     codeLink="https://github.com/officialyash07/ip-address-tracker"
+                    liveLink="https://ip-address-tracker-seven-gilt.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
@@ -160,6 +168,7 @@ const ProjectsPage = () => {
                     title="E-Commerce Product Page"
                     description="A simple webpage for an e-commerce product. It includes a product image, title, description, price, and a button to add the product to the cart."
                     codeLink="https://github.com/officialyash07/ecommerce-product-main-page"
+                    liveLink="https://ecommerce-product-main-page-lilac.vercel.app/"
                 />
             </FadeInLeft>
         </main>

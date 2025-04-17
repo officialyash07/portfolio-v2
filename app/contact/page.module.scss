@@ -1,0 +1,73 @@
+@use "../../styles/variables" as variable;
+@use "../../styles/mixins" as *;
+
+.main {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    width: 100%;
+
+    @include respond(md) {
+        flex-direction: column;
+    }
+
+    .socials {
+        width: 50%;
+
+        @include respond(md) {
+            width: 100%;
+        }
+
+        .heading {
+            font-size: variable.$fs-fluid-3;
+            color: variable.$secondary;
+            margin-block-end: 2rem;
+        }
+
+        .social {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-block-end: 1rem;
+
+            .text {
+                letter-spacing: 1px;
+                color: variable.$text-grey;
+                font-size: variable.$fs-xs;
+                width: fit-content;
+
+                @include respond(sm) {
+                    font-size: variable.$fs-xxs;
+                }
+            }
+        }
+
+        .social svg {
+            width: 40px;
+            min-width: 40px;
+            height: 40px;
+            padding: 10px;
+            border: 1px solid variable.$secondary;
+            border-radius: 12px;
+            background-color: #08614842;
+            backdrop-filter: blur(20px);
+        }
+    }
+
+    .formWrapper {
+        border: 1px solid #08a97b6e;
+        width: 50%;
+        padding: 2rem;
+        border-radius: 12px;
+        background-color: #0000003b;
+        backdrop-filter: blur(20px);
+
+        @include respond(md) {
+            width: 100%;
+        }
+
+        @include respond(sm) {
+            padding: 1rem;
+        }
+    }
+}

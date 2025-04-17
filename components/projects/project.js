@@ -21,7 +21,7 @@ const Project = ({ images, title, description, codeLink, liveLink }) => {
                 <p className={classes.description}>{description}</p>
                 <div className={classes.cta}>
                     <HoverBounce>
-                        <Link href="">
+                        <Link href={codeLink} target="_blank">
                             <span className={classes.icon}>
                                 <Image
                                     src={githubIcon}
@@ -33,7 +33,7 @@ const Project = ({ images, title, description, codeLink, liveLink }) => {
                         </Link>
                     </HoverBounce>
                     <HoverBounce>
-                        <Link href="">
+                        <Link href={liveLink} target="_blank">
                             <span className={classes.icon}>
                                 <Image src={liveIcon} alt="Live " width={20} />
                             </span>
