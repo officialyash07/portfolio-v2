@@ -30,7 +30,7 @@ const About = () => {
             <FadeInLeft delay={1}>
                 <div className={classes.cta}>
                     <p>
-                        <Link href="">
+                        <Link href="mailto:yashpathik.official@gmail.com">
                             <span className={classes.icon}>
                                 <OpenmailIcon />
                             </span>
@@ -38,7 +38,11 @@ const About = () => {
                         </Link>
                     </p>
                     <p>
-                        <Link href="">
+                        <Link
+                            href="/YashPathik_Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <span className={classes.icon}>
                                 <DownloadIcon />
                             </span>

@@ -60,3 +60,13 @@
         color: variable.$primary;
     }
 }
+
+.successMessage {
+    margin-block-start: 2rem;
+    color: #4bb543;
+}
+
+.errorMessage {
+    margin-block-start: 2rem;
+    color: #ff0505;
+}
