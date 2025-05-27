@@ -25,8 +25,8 @@ export default function Home() {
             </FadeInLeft>
             <FadeInLeft delay={0.4}>
                 <h2 className={classes.tagLine}>
-                    Developer building seamless web experiences, One pixel at a
-                    time.
+                    Full-Stack & AWS Developer | Cloud-Native Solutions |
+                    Building Serverless & Scalable Architecture.
                 </h2>
             </FadeInLeft>
             <FadeInLeft delay={0.6}>
