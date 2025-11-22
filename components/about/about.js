@@ -27,10 +27,10 @@ const About = () => {
                     scalable, and efficient frontend-to-backend interactions.
                     I&apos;ve worked on several freelance projects, helping
                     clients transform their ideas into fast, user-friendly, and
-                    visually polished web platforms. Whether it's an e-commerce
-                    store, a SaaS dashboard, or an internal tool, I bring a
-                    UI-focused, performance-driven, and cloud-aware approach to
-                    every project. Always learning, always building.
+                    visually polished web platforms. Whether it&apos;s an
+                    e-commerce store, a SaaS dashboard, or an internal tool, I
+                    bring a UI-focused, performance-driven, and cloud-aware
+                    approach to every project. Always learning, always building.
                 </p>
             </FadeInLeft>
             <FadeInLeft delay={1}>
