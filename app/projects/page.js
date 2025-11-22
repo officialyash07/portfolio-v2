@@ -143,7 +143,7 @@ const ProjectsPage = () => {
                     title="Facebook Validation Form"
                     description="A Facebook clone of login and sign up form with validation."
                     codeLink="https://github.com/officialyash07/facebook-login-signup-validation"
-                    liveLink="https://facebook-login-signup-validation.vercel.app/"
+                    liveLink="https://facebook-login-signup-validation-gk1xp71dm.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
