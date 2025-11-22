@@ -25,17 +25,17 @@ export default function Home() {
             </FadeInLeft>
             <FadeInLeft delay={0.4}>
                 <h2 className={classes.tagLine}>
-                    Full-Stack & AWS Developer | Cloud-Native Solutions |
-                    Building Serverless & Scalable Architecture.
+                    Frontend Developer | Crafting Modern, Cloud-Ready Interfaces
+                    | Building Scalable & High-Performance Web Experiences.
                 </h2>
             </FadeInLeft>
             <FadeInLeft delay={0.6}>
                 <MorphingText
                     className={classes.morphTxt}
                     texts={[
+                        "Frontend Developer",
+                        "React Developer",
                         "Web Developer",
-                        "Javascript Developer",
-                        "Cloud Computing",
                         "DevOps Enthusiast",
                     ]}
                 />

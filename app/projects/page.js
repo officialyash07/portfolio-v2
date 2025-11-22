@@ -28,6 +28,10 @@ import ipImage from "@/public/project-images/ip-address/ip.png";
 import product1 from "@/public/project-images/product-page/product-1.png";
 import product2 from "@/public/project-images/product-page/product-2.png";
 import product3 from "@/public/project-images/product-page/product-3.png";
+import chattr1 from "@/public/project-images/chattr-app/chattr-1.png";
+import chattr2 from "@/public/project-images/chattr-app/chattr-2.png";
+import chattr3 from "@/public/project-images/chattr-app/chattr-3.png";
+import chattr4 from "@/public/project-images/chattr-app/chattr-4.png";
 
 import FadeInLeft from "@/ui/animation/fade-in-left";
 
@@ -87,9 +91,25 @@ const productImages = [
     { src: product3, alt: "product3" },
 ];
 
+const chattrImages = [
+    { src: chattr1, alt: "Chattr1" },
+    { src: chattr2, alt: "Chattr2" },
+    { src: chattr3, alt: "Chattr3" },
+    { src: chattr4, alt: "Chattr4" },
+];
+
 const ProjectsPage = () => {
     return (
         <main>
+            <FadeInLeft>
+                <Project
+                    images={chattrImages}
+                    title="Chattr App"
+                    description="Chattr App is a responsive frontend web application for real-time one-to-one chat. Built using modern web technologies, it features intuitive UI design, efficient state management, and smooth user interactions. The project demonstrates expertise in component-based architecture, delivering a seamless messaging experience entirely on the client side."
+                    codeLink="https://github.com/officialyash07/chattr-app"
+                    liveLink="https://chattr-app-snowy.vercel.app/"
+                />
+            </FadeInLeft>
             <FadeInLeft>
                 <Project
                     images={certificateImages}
@@ -141,7 +161,7 @@ const ProjectsPage = () => {
                     title="E-Commerce Website"
                     description="Discover premium ceramic products at Ceramic Shop! From elegant tableware to stylish home decor."
                     codeLink="https://github.com/officialyash07/ceramic-shop-full-e-commerce-website"
-                    liveLink="/projects/maintenance"
+                    liveLink="https://ceramic-shop-full-e-commerce-websit.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
