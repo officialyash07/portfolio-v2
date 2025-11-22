@@ -32,6 +32,9 @@ import chattr1 from "@/public/project-images/chattr-app/chattr-1.png";
 import chattr2 from "@/public/project-images/chattr-app/chattr-2.png";
 import chattr3 from "@/public/project-images/chattr-app/chattr-3.png";
 import chattr4 from "@/public/project-images/chattr-app/chattr-4.png";
+import quiz1 from "@/public/project-images/quiz-js/quiz-1.png";
+import quiz2 from "@/public/project-images/quiz-js/quiz-2.png";
+import quiz3 from "@/public/project-images/quiz-js/quiz-3.png";
 
 import FadeInLeft from "@/ui/animation/fade-in-left";
 
@@ -98,6 +101,12 @@ const chattrImages = [
     { src: chattr4, alt: "Chattr4" },
 ];
 
+const quizImages = [
+    { src: quiz1, alt: "Quiz1" },
+    { src: quiz2, alt: "Quiz2" },
+    { src: quiz3, alt: "Quiz3" },
+];
+
 const ProjectsPage = () => {
     return (
         <main>
@@ -108,6 +117,15 @@ const ProjectsPage = () => {
                     description="Chattr App is a responsive frontend web application for real-time one-to-one chat. Built using modern web technologies, it features intuitive UI design, efficient state management, and smooth user interactions. The project demonstrates expertise in component-based architecture, delivering a seamless messaging experience entirely on the client side."
                     codeLink="https://github.com/officialyash07/chattr-app"
                     liveLink="https://chattr-app-snowy.vercel.app/"
+                />
+            </FadeInLeft>
+            <FadeInLeft>
+                <Project
+                    images={quizImages}
+                    title=" JS Quiz App"
+                    description="This is a web-based quiz application designed to deliver interactive quizzes to users. Built primarily with JavaScript, the app allows users to engage in quizzes through a clean and responsive interface. It features straightforward navigation, making it easily accessible. This project demonstrates my ability to develop functional and user-friendly web applications using modern JavaScript Classes."
+                    codeLink="https://github.com/officialyash07/quiz-app"
+                    liveLink="https://quiz-app-pink-ten-36.vercel.app/"
                 />
             </FadeInLeft>
             <FadeInLeft>
