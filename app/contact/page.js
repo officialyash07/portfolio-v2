@@ -11,7 +11,7 @@ const ContactPage = () => {
                 <p className={classes.heading}>Get in Touch</p>
                 <p className={classes.social}>
                     <PhoneIcon />
-                    <span className={classes.text}>+91-8076586547</span>
+                    <span className={classes.text}>+91-8889111348</span>
                 </p>
                 <p className={classes.social}>
                     <OpenmailIcon />
